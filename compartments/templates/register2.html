@@ -1,0 +1,128 @@
+{{> not-login-nav }}
+<div class="container">
+    <div class="row">
+
+<div class="col-md-12 animated fadeInUp" id="q-size">
+    <h2 class="text-center">What's your size?</h2>
+    <p class="text-center">
+        <button class="btn btn-default sq-btn" type="button"><img src="https://image.flaticon.com/icons/png/128/63/63297.png" style="height:auto; width: 60%;">
+          <p>XS</p>
+        </button>
+        <button class="btn btn-default sq-btn" type="button"><img src="https://image.flaticon.com/icons/png/128/63/63297.png" style="height:auto; width: 70%;">
+          <p>S<p>
+        </button>
+        <button class="btn btn-default sq-btn" type="button"><img src="https://image.flaticon.com/icons/png/128/63/63297.png" style="height:auto; width: 80%;">
+          <p>M<p>
+        </button>
+        <button class="btn btn-default sq-btn" type="button"><img src="https://image.flaticon.com/icons/png/128/63/63297.png" style="height:auto; width: 90%;">
+          <p>L</p>
+        </button>
+        <button class="btn btn-default sq-btn" type="button"><img src="https://image.flaticon.com/icons/png/128/63/63297.png">
+          <p>XL<p>
+        </button>
+    </p>
+</div>
+
+<div class="col-md-12 animated fadeInUp" id="shipping-form" style="animation-delay: .1s;">
+    <h2 class="text-center">Shipping information</h2>
+    <form class="register-form">
+        <fieldset>
+            <div class="row">
+                <div class="col-md-12">
+                    <input class="form-control hidden" type="text" value="vr-campus-tours" id="lp-formID">
+                    <input class="form-control hidden" type="text" value="<?php echo $_GET['path'];?>" id="lp-pathID">
+                </div>
+                <br>
+                <div class="col-md-6 col-sm-6 col-xs-6">
+                    <div id="lp-name-wrapper">
+                        <input class="form-control" type="text" placeholder="First Name" id="lp-name">
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-6">
+                    <div id="lp-lastname-wrapper">
+                        <input class="form-control" type="text" placeholder="Last Name" id="lp-lastname"><br>
+                        
+                    </div>
+                </div>
+                <br>
+                <div class="col-md-12 col-sm-6 col-xs-12">
+                    <div id="lp-mail-wrapper">
+                        <input class="form-control" type="text" placeholder="Address" id="lp-mail">
+                        <br>
+                    </div>
+                </div>
+                <br>
+                <div class="col-md-5 col-sm-2 col-xs-4">
+                    <div id="lp-select1-wrapper" class="input-group">
+                        <div class="input-group-addon"><i class="fa fa-phone"></i></div>
+                        <select class="form-control" id="lp-select1">
+                            <optgroup label="Country Code">
+                                <option value="+1 (USA)" selected="">+01</option>
+                            </optgroup>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-7 col-sm-4 col-xs-8">
+                    <div id="lp-telnumber-wrapper">
+                        <input class="form-control" type="text" placeholder="Phone Number" id="lp-telnumber">
+                        <br>
+                    </div>
+                </div>
+                <br>
+                <div class="col-md-12 col-sm-6 col-xs-12">
+                    <div id="customfield1-wrapper">
+                        <input class="form-control" type="text" placeholder="City" id="customfield1">
+                        <br>
+                    </div>
+                </div>
+                <br>
+                <div class="col-md-12 col-sm-6 col-xs-12">
+                    <div id="lp-title-wrapper">
+                        <input class="form-control" type="text" placeholder="State" id="lp-title">
+                        <br>
+                    </div>
+                </div>
+                <br>
+                <div class="col-md-12">
+                    <input class="form-control hidden" type="text" id="lp-country">
+                    <input class="form-control hidden" type="text" id="lp-website">
+                    <input class="form-control hidden" type="text" id="lp-city">
+                    <input class="form-control hidden" type="text" id="customfield10">
+                    <input class="form-control hidden" type="text" id="customfield9">
+                    <input class="form-control hidden" type="text" id="customfield8">
+                    <input class="form-control hidden" type="text" id="customfield7">
+                    <input class="form-control hidden" type="text" id="customfield6">
+                    <input class="form-control hidden" type="text" id="customfield5">
+                    <input class="form-control hidden" type="text" id="customfield4">
+                    <input class="form-control hidden" type="text" id="customfield3">
+                    <input class="form-control hidden" type="text" id="customfield2">
+                    <input class="form-control hidden" type="text" id="lp-select3">
+                    <input class="form-control hidden" type="text" id="lp-select2">
+                    <input class="form-control hidden" type="text" id="lp-check5">
+                    <input class="form-control hidden" type="text" id="lp-check4">
+                    <input class="form-control hidden" type="text" id="lp-check3">
+                    <input class="form-control hidden" type="text" id="lp-check2">
+                    <input class="form-control hidden" type="text" id="lp-telareacode">
+                    <input class="form-control hidden" type="text" id="lp-telcountrycode">
+                </div>
+                <div class="col-md-12">
+                    <div class="push-50"></div>
+                </div>
+            </div>
+        </fieldset>
+    </form>
+</div>
+
+<div class="col-md-12 animated fadeIn" style="animation-delay: .6s;">
+  <p class="text-center">
+    <a href="/">
+    <button class="btn btn-default" type="button" style="background-color:#f15a24; color:rgb(249,248,248);  style="padding: 0px"">
+      <h3>
+      <b>Submit</b>
+    </h3>
+    </button>
+    </a>
+  </p>
+</div>
+</div>
+</div>

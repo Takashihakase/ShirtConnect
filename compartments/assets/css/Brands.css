@@ -21,3 +21,8 @@
   vertical-align:middle;
 }
 
+#login-div {
+  border:1px;
+  border-color:#B3B3B3;
+  border-style:solid;
+}
